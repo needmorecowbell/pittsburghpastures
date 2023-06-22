@@ -2,10 +2,11 @@
 # Banner
 banner:
   title: "Welcome to Pittsburgh Pastures"
-  content: "Pittsburgh Pastures has all your bird needs. Get your poultry from Pittsburgh’s own Bird Man himself, Nash Lawrence"
+  content: "A Turkey and Chicken farm focused on regenerative practices and happy birds."
+  body: "For business inquiries, contact Nash Lawrence at **(412) 716-6937**, or by email at **nash@pittsburghpastures.com**"
   image: "/images/brand_logo.jpg"
   button:
-    enable: true
+    enable: false
     label: "Get these birds"
     link: "/contact"
 # Features
