@@ -46,18 +46,19 @@ const { className }: { className?: string } = Astro.props;
 
 <script is:inline define:vars={{ defaultTheme: default_theme }}>
   var darkMode = defaultTheme === "dark" ? true : false;
-  var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
-  if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-    darkMode = true;
-  }
-  if (localStorage.getItem("theme") === "dark") {
-    darkMode = true;
-  } else if (localStorage.getItem("theme") === "light") {
-    darkMode = false;
-  }
-  if (darkMode) {
-    document.documentElement.classList.toggle("dark");
-  }
+  //var themeSwitch = document.querySelectorAll("[data-theme-switcher]");
+  darkMode=false
+  // if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  //   darkMode = true;
+  // }
+  // if (localStorage.getItem("theme") === "dark") {
+  //   darkMode = true;
+  // } else if (localStorage.getItem("theme") === "light") {
+  //   darkMode = false;
+  // }
+  // if (darkMode) {
+  //   document.documentElement.classList.toggle("dark");
+  // }
   document.addEventListener("DOMContentLoaded", () => {
     [].forEach.call(themeSwitch, function (ts) {
       ts.checked = darkMode ? true : false;

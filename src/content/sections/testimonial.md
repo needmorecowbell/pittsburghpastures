@@ -5,23 +5,23 @@ description: "Don't just take our word for it - hear from some of our satisfied 
 
 # Testimonials
 testimonials:
-  - name: "Charlie Day"
-    designation: "Bird Expert"
+  - name: "User 1"
+    designation: "Profession"
     avatar: "/images/avatar-sm.png"
-    content: "This business knows bird law."
+    content: "review here"
 
-  - name: "Marvin McKinney"
-    designation: "Friend of the crows"
+  - name: "User 2"
+    designation: "Profession here"
     avatar: "/images/avatar-sm.png"
-    content: "Ordered a pallet of turkey legs, discreetly shipped"
+    content: "Review Here"
 
-  - name: "Donald McBonald"
-    designation: "McBonalds CEO"
+  - name: "User 3"
+    designation: "Profession here"
     avatar: "/images/avatar-sm.png"
-    content: "Major east coast nugget vendor"
+    content: "Review Here"
 
-  - name: "Theresa Marstello"
-    designation: "Lulu's Cocina Head Chef"
+  - name: "User 4"
+    designation: "Profession Here"
     avatar: "/images/avatar-sm.png"
-    content: "You can just tell these birds were loved."
+    content: "Review Here"
 ---

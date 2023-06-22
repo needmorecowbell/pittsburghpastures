@@ -12,9 +12,9 @@ banner:
 features:
   - title: "Where Are We Located"
     image: "/images/service-1.png"
-    content: "1806 Constitution Blvd, Valencia, PA 16059-3908"
+    content: "123 Address Here"
     bulletpoints:
-      - "fact 1 about location"
+      - "fact 1 about"
       - "another cool fact about location"
       - "a third comment about the location"
     button:
@@ -26,9 +26,9 @@ features:
     image: "/images/service-2.png"
     content: "Pittsburgh Pastures is a great place to get your poultry! This is because:"
     bulletpoints:
-      - "Better looking birds"
-      - "Better tasting birds"
-      - "Bigger talons"
+      - "point 1"
+      - "point 2"
+      - "point 3"
     button:
       enable: true
       label: "Get a quote"
