@@ -19,7 +19,7 @@ features:
       - "another cool fact about location"
       - "a third comment about the location"
     button:
-      enable: true
+      enable: false
       label: "Directions"
       link: "#"
 
